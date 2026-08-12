@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Digvijay Thorat | Cloud & DevOps Engineer</title>
+
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+
+
+    <a class="navbar-brand" href="index.html">
+        DIGVIJAY THORAT
+    </a>
+
+    <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="education.html">Education</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="skills.html">Skills</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="experience.html">Experience</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="achievements.html">Achievements</a>
+            </li>
+
+        </ul>
+
+    </div>
+</div>
+
+
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+    const currentPath = window.location.pathname;
+
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    navLinks.forEach(link => {
+
+        link.classList.remove('active');
+
+        if (link.getAttribute('href') === currentPath) {
+            link.classList.add('active');
+        }
+
+    });
+
+});
+</script>
+
+
+
+<div class="container my-5">
+
+    <h2 class="section-title text-center mb-5 fade-in">
+        <span class="title-black">Technical</span> Skills
+    </h2>
+
+    <div class="row">
+
+        <!-- Cloud & AWS -->
+        <div class="col-md-12 mb-4">
+            <div class="skill-card animate-on-scroll">
+                <div class="card shadow-lg">
+                    <div class="card-body p-4">
+
+                        <h3 class="skill-title slide-in-left">
+                            <i class="fas fa-cloud me-2"></i>
+                            Cloud & AWS
+                        </h3>
+
+                        <div class="skill-badge-container mt-3">
+                            <span class="skill-badge">AWS</span>
+                            <span class="skill-badge">EC2</span>
+                            <span class="skill-badge">S3</span>
+                            <span class="skill-badge">CloudFront</span>
+                            <span class="skill-badge">Route 53</span>
+                            <span class="skill-badge">RDS</span>
+                            <span class="skill-badge">ECR</span>
+                            <span class="skill-badge">ECS</span>
+                            <span class="skill-badge">EKS</span>
+                            <span class="skill-badge">IAM</span>
+                            <span class="skill-badge">AWS CLI</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DevOps & CI/CD -->
+        <div class="col-md-6 mb-4">
+            <div class="skill-card animate-on-scroll">
+                <div class="card shadow-lg">
+                    <div class="card-body p-4">
+
+                        <h3 class="skill-title slide-in-left">
+                            <i class="fas fa-gears me-2"></i>
+                            DevOps & CI/CD
+                        </h3>
+
+                        <div class="skill-badge-container mt-3">
+                            <span class="skill-badge">Git</span>
+                            <span class="skill-badge">GitHub</span>
+                            <span class="skill-badge">GitHub Actions</span>
+                            <span class="skill-badge">CI/CD</span>
+                            <span class="skill-badge">Shell Scripting</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Containers -->
+        <div class="col-md-6 mb-4">
+            <div class="skill-card animate-on-scroll">
+                <div class="card shadow-lg">
+                    <div class="card-body p-4">
+
+                        <h3 class="skill-title slide-in-left">
+                            <i class="fab fa-docker me-2"></i>
+                            Containerization
+                        </h3>
+
+                        <div class="skill-badge-container mt-3">
+                            <span class="skill-badge">Docker</span>
+                            <span class="skill-badge">Dockerfile</span>
+                            <span class="skill-badge">Docker Compose</span>
+                            <span class="skill-badge">Docker Hub</span>
+                            <span class="skill-badge">Container Networking</span>
+                            <span class="skill-badge">Volumes</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kubernetes -->
+        <div class="col-md-6 mb-4">
+            <div class="skill-card animate-on-scroll">
+                <div class="card shadow-lg">
+                    <div class="card-body p-4">
+
+                        <h3 class="skill-title slide-in-left">
+                            <i class="fas fa-dharmachakra me-2"></i>
+                            Kubernetes
+                        </h3>
+
+                        <div class="skill-badge-container mt-3">
+                            <span class="skill-badge">Kubernetes</span>
+                            <span class="skill-badge">Pods</span>
+                            <span class="skill-badge">Deployments</span>
+                            <span class="skill-badge">Services</span>
+                            <span class="skill-badge">ConfigMaps</span>
+                            <span class="skill-badge">Secrets</span>
+                            <span class="skill-badge">Ingress</span>
+                            <span class="skill-badge">Helm</span>
+                            <span class="skill-badge">Minikube</span>
+                            <span class="skill-badge">Kind</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Infrastructure as Code -->
+        <div class="col-md-6 mb-4">
+            <div class="skill-card animate-on-scroll">
+                <div class="card shadow-lg">
+                    <div class="card-body p-4">
+
+                        <h3 class="skill-title slide-in-left">
+                            <i class="fas fa-code-branch me-2"></i>
+                            Infrastructure as Code
+                        </h3>
+
+                        <div class="skill-badge-container mt-3">
+                            <span class="skill-badge">Terraform</span>
+                            <span class="skill-badge">AWS Infrastructure</span>
+                            <span class="skill-badge">VPC</span>
+                            <span class="skill-badge">EC2</span>
+                            <span class="skill-badge">Security Groups</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Linux -->
+        <div class="col-md-6 mb-4">
+            <div class="skill-card animate-on-scroll">
+                <div class="card shadow-lg">
+                    <div class="card-body p-4">
+
+                        <h3 class="skill-title slide-in-left">
+                            <i class="fab fa-linux me-2"></i>
+                            Linux & System Administration
+                        </h3>
+
+                        <div class="skill-badge-container mt-3">
+                            <span class="skill-badge">Linux</span>
+                            <span class="skill-badge">Ubuntu</span>
+                            <span class="skill-badge">Bash</span>
+                            <span class="skill-badge">SSH</span>
+                            <span class="skill-badge">Systemctl</span>
+                            <span class="skill-badge">Cron Jobs</span>
+                            <span class="skill-badge">File Permissions</span>
+                            <span class="skill-badge">Process Management</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Networking -->
+        <div class="col-md-12 mb-4">
+            <div class="skill-card animate-on-scroll">
+                <div class="card shadow-lg">
+                    <div class="card-body p-4">
+
+                        <h3 class="skill-title slide-in-left">
+                            <i class="fas fa-network-wired me-2"></i>
+                            Networking
+                        </h3>
+
+                        <div class="skill-badge-container mt-3">
+                            <span class="skill-badge">OSI Model</span>
+                            <span class="skill-badge">TCP/IP</span>
+                            <span class="skill-badge">HTTP/HTTPS</span>
+                            <span class="skill-badge">DNS</span>
+                            <span class="skill-badge">DHCP</span>
+                            <span class="skill-badge">NAT</span>
+                            <span class="skill-badge">IPv4</span>
+                            <span class="skill-badge">IPv6</span>
+                            <span class="skill-badge">Ping</span>
+                            <span class="skill-badge">Traceroute</span>
+                            <span class="skill-badge">nslookup</span>
+                            <span class="skill-badge">curl</span>
+                            <span class="skill-badge">ss</span>
+                            <span class="skill-badge">netstat</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Programming & Scripting -->
+        <div class="col-md-6 mb-4">
+            <div class="skill-card animate-on-scroll">
+                <div class="card shadow-lg">
+                    <div class="card-body p-4">
+
+                        <h3 class="skill-title slide-in-left">
+                            <i class="fas fa-terminal me-2"></i>
+                            Programming & Scripting
+                        </h3>
+
+                        <div class="skill-badge-container mt-3">
+                            <span class="skill-badge">Shell Scripting</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Monitoring -->
+        <div class="col-md-6 mb-4">
+            <div class="skill-card animate-on-scroll">
+                <div class="card shadow-lg">
+                    <div class="card-body p-4">
+
+                        <h3 class="skill-title slide-in-left">
+                            <i class="fas fa-chart-line me-2"></i>
+                            Monitoring & Observability
+                        </h3>
+
+                        <div class="skill-badge-container mt-3">
+                            <span class="skill-badge">Prometheus</span>
+                            <span class="skill-badge">Grafana</span>
+                            <span class="skill-badge">Application Monitoring</span>
+                            <span class="skill-badge">Logs</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Development Tools -->
+        <div class="col-md-6 mb-4">
+            <div class="skill-card animate-on-scroll">
+                <div class="card shadow-lg">
+                    <div class="card-body p-4">
+
+                        <h3 class="skill-title slide-in-left">
+                            <i class="fas fa-toolbox me-2"></i>
+                            Development Tools
+                        </h3>
+
+                        <div class="skill-badge-container mt-3">
+                            <span class="skill-badge">VS Code</span>
+                            <span class="skill-badge">GitHub</span>
+                            <span class="skill-badge">AWS CLI</span>
+                            <span class="skill-badge">CMD</span>
+                            <span class="skill-badge">YAML</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Relevant Coursework -->
+        <div class="col-md-12 mb-4">
+            <div class="skill-card animate-on-scroll">
+                <div class="card shadow-lg">
+                    <div class="card-body p-4">
+
+                        <h3 class="skill-title slide-in-left">
+                            <i class="fas fa-book me-2"></i>
+                            Relevant Coursework
+                        </h3>
+
+                        <div class="row">
+
+                            <div class="col-md-3">
+                                <div class="course-item">
+                                    <h5 class="course-title">Operating Systems</h5>
+                                    <p class="course-description">
+                                        Linux, processes, memory and system management
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="course-item">
+                                    <h5 class="course-title">Computer Networks</h5>
+                                    <p class="course-description">
+                                        TCP/IP, DNS, HTTP, networking fundamentals
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="course-item">
+                                    <h5 class="course-title">DBMS</h5>
+                                    <p class="course-description">
+                                        MySQL, MongoDB and database fundamentals
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="course-item">
+                                    <h5 class="course-title">Cloud Computing</h5>
+                                    <p class="course-description">
+                                        AWS cloud services and deployment concepts
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="next-section-nav">
+        <a href="projects.html" class="next-page-btn">
+            Projects
+            <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+
+</div>
+
+<script>
+    // Typing effect
+    const texts = [
+        'Cloud & DevOps Engineer',
+        'AWS Enthusiast',
+        'DevOps Engineer'
+    ];
+
+    let textIndex = 0;
+    let charIndex = 0;
+
+    function type() {
+        const typingElement = document.querySelector('.typing-text');
+        if (!typingElement) return;
+
+        if (charIndex < texts[textIndex].length) {
+            typingElement.textContent += texts[textIndex].charAt(charIndex);
+            charIndex++;
+            setTimeout(type, 100);
+        } else {
+            setTimeout(erase, 2000);
+        }
+    }
+
+    function erase() {
+        const typingElement = document.querySelector('.typing-text');
+        if (!typingElement) return;
+
+        if (charIndex > 0) {
+            typingElement.textContent =
+                texts[textIndex].substring(0, charIndex - 1);
+
+            charIndex--;
+            setTimeout(erase, 50);
+        } else {
+            textIndex = (textIndex + 1) % texts.length;
+            setTimeout(type, 500);
+        }
+    }
+
+    // Scroll animations
+    function handleScrollAnimations() {
+        const elements =
+            document.querySelectorAll('.animate-on-scroll');
+
+        elements.forEach(element => {
+            const elementTop =
+                element.getBoundingClientRect().top;
+
+            const windowHeight = window.innerHeight;
+
+            if (elementTop < windowHeight * 0.75) {
+                element.classList.add('fade-in');
+            }
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        setTimeout(type, 1000);
+
+        window.addEventListener(
+            'scroll',
+            handleScrollAnimations
+        );
+
+        handleScrollAnimations();
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous">
+</script>
+
+
+</body>
+</html>

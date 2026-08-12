@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Digvijay Thorat | Cloud & DevOps Engineer</title>
+
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+
+
+    <a class="navbar-brand" href="index.html">
+        DIGVIJAY THORAT
+    </a>
+
+    <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="education.html">Education</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="skills.html">Skills</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="experience.html">Experience</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="achievements.html">Achievements</a>
+            </li>
+
+        </ul>
+
+    </div>
+</div>
+
+
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+    const currentPath = window.location.pathname;
+
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    navLinks.forEach(link => {
+
+        link.classList.remove('active');
+
+        if (link.getAttribute('href') === currentPath) {
+            link.classList.add('active');
+        }
+
+    });
+
+});
+</script>
+
+
+
+<div class="container my-5">
+    <h2 class="section-title text-center mb-5 fade-in">
+        <span class="title-black">Academic</span> Journey
+    </h2>
+
+
+<div class="education-timeline">
+
+    <!-- M.Sc. Computer Science -->
+    <div class="education-card animate-on-scroll mb-5">
+        <div class="card shadow-lg">
+            <div class="row g-0 align-items-center">
+
+                <div class="col-md-8 order-md-1">
+                    <div class="card-body p-4">
+
+                        <h3 class="education-title slide-in-left">
+                            M.Sc. Computer Science
+                        </h3>
+
+                        <div class="school-info mb-3">
+                            <span class="education-badge">
+                                Bharati Vidyapeeth, Pune
+                            </span>
+                            <span class="education-badge">
+                                Computer Science
+                            </span>
+                            <span class="education-badge">
+                                2025 - Present
+                            </span>
+                        </div>
+
+                        <div class="achievement-box mt-3">
+                            <div class="percentage-wrapper">
+                                <h5 class="mb-3">
+                                    Postgraduate Studies
+                                </h5>
+
+                                <p>
+                                    Currently pursuing M.Sc. in Computer Science
+                                    with a focus on Cloud Computing, DevOps,
+                                    software development and modern technologies.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 order-md-2">
+                    <div class="education-image-container">
+                        <img src="photo.jpg"
+                             class="img-fluid"
+                             alt="Bharati Vidyapeeth Pune">
+
+                        <div class="education-overlay">
+                            <div class="overlay-content">
+                                <span class="year-badge">
+                                    2025 - Present
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- B.Sc. Computer Science -->
+    <div class="education-card animate-on-scroll mb-5">
+        <div class="card shadow-lg">
+            <div class="row g-0 align-items-center">
+
+                <div class="col-md-8 order-md-1">
+                    <div class="card-body p-4">
+
+                        <h3 class="education-title slide-in-left">
+                            Bachelor of Computer Science
+                        </h3>
+
+                        <div class="school-info mb-3">
+                            <span class="education-badge">
+                                S.G.M. College, Karad
+                            </span>
+                            <span class="education-badge">
+                                Shivaji University, Kolhapur
+                            </span>
+                            <span class="education-badge">
+                                2022 - 2025
+                            </span>
+                        </div>
+
+                        <div class="achievement-box mt-3">
+                            <div class="percentage-wrapper">
+                                <h5 class="mb-3">
+                                    Academic Performance
+                                </h5>
+
+                                <div class="progress-container">
+                                    <div class="progress" style="height: 10px;">
+                                        <div class="progress-bar"
+                                             role="progressbar"
+                                             style="width: 70%;"
+                                             aria-valuenow="70"
+                                             aria-valuemin="0"
+                                             aria-valuemax="100">
+                                        </div>
+                                    </div>
+
+                                    <span class="percentage-label">
+                                        70%
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 order-md-2">
+                    <div class="education-image-container">
+                        <img src="sgm.jpg"
+                             class="img-fluid"
+                             alt="S.G.M. College Karad">
+
+                        <div class="education-overlay">
+                            <div class="overlay-content">
+                                <span class="year-badge">
+                                    2022 - 2025
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 12th Grade -->
+    <div class="education-card animate-on-scroll mb-5">
+        <div class="card shadow-lg">
+            <div class="row g-0 align-items-center">
+
+                <div class="col-md-8 order-md-1">
+                    <div class="card-body p-4">
+
+                        <h3 class="education-title slide-in-left">
+                            12th Grade
+                        </h3>
+
+                        <div class="school-info mb-3">
+                            <span class="education-badge">
+                                Higher Secondary Education
+                            </span>
+                            <span class="education-badge">
+                                Maharashtra State Board
+                            </span>
+                            <span class="education-badge">
+                                2022
+                            </span>
+                        </div>
+
+                        <div class="achievement-box mt-3">
+                            <div class="percentage-wrapper">
+
+                                <h5 class="mb-3">
+                                    Academic Performance
+                                </h5>
+
+                                <div class="progress-container">
+                                    <div class="progress" style="height: 10px;">
+                                        <div class="progress-bar"
+                                             role="progressbar"
+                                             style="width: 72.33%;"
+                                             aria-valuenow="72.33"
+                                             aria-valuemin="0"
+                                             aria-valuemax="100">
+                                        </div>
+                                    </div>
+
+                                    <span class="percentage-label">
+                                        72.33%
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 order-md-2">
+                    <div class="education-image-container">
+
+                        <img src="12.jpg"
+                             class="img-fluid"
+                             alt="12th Grade">
+
+                        <div class="education-overlay">
+                            <div class="overlay-content">
+                                <span class="year-badge">
+                                    2022
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 10th Grade -->
+    <div class="education-card animate-on-scroll mb-5">
+        <div class="card shadow-lg">
+            <div class="row g-0 align-items-center">
+
+                <div class="col-md-8 order-md-1">
+                    <div class="card-body p-4">
+
+                        <h3 class="education-title slide-in-left">
+                            10th Grade
+                        </h3>
+
+                        <div class="school-info mb-3">
+                            <span class="education-badge">
+                                Secondary Education
+                            </span>
+                            <span class="education-badge">
+                                Maharashtra State Board
+                            </span>
+                            <span class="education-badge">
+                                2020
+                            </span>
+                        </div>
+
+                        <div class="achievement-box mt-3">
+                            <div class="percentage-wrapper">
+
+                                <h5 class="mb-3">
+                                    Academic Performance
+                                </h5>
+
+                                <div class="progress-container">
+                                    <div class="progress" style="height: 10px;">
+                                        <div class="progress-bar"
+                                             role="progressbar"
+                                             style="width: 77.60%;"
+                                             aria-valuenow="77.60"
+                                             aria-valuemin="0"
+                                             aria-valuemax="100">
+                                        </div>
+                                    </div>
+
+                                    <span class="percentage-label">
+                                        77.60%
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 order-md-2">
+                    <div class="education-image-container">
+
+                        <img src="10.jpg"
+                             class="img-fluid"
+                             alt="10th Grade">
+
+                        <div class="education-overlay">
+                            <div class="overlay-content">
+                                <span class="year-badge">
+                                    2020
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="next-section-nav">
+    <a href="skills.html" class="next-page-btn">
+        Skills
+        <i class="fas fa-arrow-right"></i>
+    </a>
+</div>
+
+
+</div>
+
+
+<script>
+    // Typing effect
+    const texts = [
+        'Cloud & DevOps Engineer',
+        'AWS Enthusiast',
+        'DevOps Engineer'
+    ];
+
+    let textIndex = 0;
+    let charIndex = 0;
+
+    function type() {
+        const typingElement = document.querySelector('.typing-text');
+        if (!typingElement) return;
+
+        if (charIndex < texts[textIndex].length) {
+            typingElement.textContent += texts[textIndex].charAt(charIndex);
+            charIndex++;
+            setTimeout(type, 100);
+        } else {
+            setTimeout(erase, 2000);
+        }
+    }
+
+    function erase() {
+        const typingElement = document.querySelector('.typing-text');
+        if (!typingElement) return;
+
+        if (charIndex > 0) {
+            typingElement.textContent =
+                texts[textIndex].substring(0, charIndex - 1);
+
+            charIndex--;
+            setTimeout(erase, 50);
+        } else {
+            textIndex = (textIndex + 1) % texts.length;
+            setTimeout(type, 500);
+        }
+    }
+
+    // Scroll animations
+    function handleScrollAnimations() {
+        const elements =
+            document.querySelectorAll('.animate-on-scroll');
+
+        elements.forEach(element => {
+            const elementTop =
+                element.getBoundingClientRect().top;
+
+            const windowHeight = window.innerHeight;
+
+            if (elementTop < windowHeight * 0.75) {
+                element.classList.add('fade-in');
+            }
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        setTimeout(type, 1000);
+
+        window.addEventListener(
+            'scroll',
+            handleScrollAnimations
+        );
+
+        handleScrollAnimations();
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous">
+</script>
+
+
+</body>
+</html>
