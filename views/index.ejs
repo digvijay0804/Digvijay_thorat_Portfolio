@@ -1,311 +1,261 @@
 <% layout('boilerplate') -%>
-<!-- Add the background div right after the layout declaration -->
+
 <div class="animated-background"></div>
 
 <div class="container my-5">
-  <div class="row align-items-center justify-content-center">
-    <div class="col-md-10">
-      <!-- Enhanced Interactive Intro Header -->
-      <div class="intro-header text-center mb-5 animate-on-scroll" style="transform-style: preserve-3d;">
-        <h1 class="mega-title fade-in" style="font-size: clamp(2.5rem, 5vw, 3.5rem); position: relative;">
-          <span style="background: linear-gradient(45deg, #ff4500, #ff8c5a); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 800;">Hi,</span>
-          <span style="color: #000000; font-weight: 800;">I'm</span>
-          <span class="highlight-name" style="position: relative; display: inline-block; transition: all 0.3s ease; color: var(--dark-orange); font-weight: 900 !important; text-shadow: 1px 0 0 var(--dark-orange); letter-spacing: 0.5px;"
-                onmouseover="this.style.transform='translateY(-5px)'" 
-                onmouseout="this.style.transform='translateY(0)'">
-            Neha Singh
-            <span style="position: absolute; bottom: -3px; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #ff4500, transparent);"></span>
-          </span>
-          <span class="waving-hand" style="display: inline-block; cursor: pointer;" 
-                onclick="this.style.animation='wave 0.5s infinite'">👋</span>
-        </h1>
 
-        <!-- Enhanced Role Container -->
-        <div class="role-container slide-in-up" style="margin-top: 2rem;">
-          <h2 class="role-title" style="display: flex; gap: 1rem; justify-content: center; align-items: center; flex-wrap: wrap;">
-            <span class="role-badge" style="background: #fff; color: #ff4500; padding: 0.8rem 1.5rem; border-radius: 50px; font-size: clamp(0.9rem, 2vw, 1.2rem); border: 2px solid #ff4500; transition: all 0.3s ease; cursor: pointer;"
-                  onmouseover="this.style.background='#ff4500'; this.style.color='white';" 
-                  onmouseout="this.style.background='#fff'; this.style.color='#ff4500';">
-              Full Stack Developer
-            </span>
-            <span class="role-divider" style="color: #ff4500;">|</span>
-            <span class="role-badge" style="background: #fff; color: #ff4500; padding: 0.8rem 1.5rem; border-radius: 50px; font-size: clamp(0.9rem, 2vw, 1.2rem); border: 2px solid #ff4500; transition: all 0.3s ease; cursor: pointer;"
-                  onmouseover="this.style.background='#ff4500'; this.style.color='white';" 
-                  onmouseout="this.style.background='#fff'; this.style.color='#ff4500';">
-              ECE Student
-            </span>
-          </h2>
+    <div class="row align-items-center justify-content-center">
+
+        <div class="col-md-10">
+
+            <!-- Hero Section -->
+            <div class="intro-header text-center mb-5 animate-on-scroll">
+
+                <h1 class="mega-title fade-in"
+                    style="font-size: clamp(2.5rem, 5vw, 3.5rem);">
+
+                    <span style="
+                        background: linear-gradient(45deg, #ff4500, #ff8c5a);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        font-weight: 800;">
+                        Hey ,
+                    </span>
+
+                    <span style="color: #000000; font-weight: 800;">
+                        I'm
+                    </span>
+
+                    <span class="highlight-name"
+                        style="
+                        color: var(--dark-orange);
+                        font-weight: 900 !important;
+                        text-shadow: 1px 0 0 var(--dark-orange);
+                        letter-spacing: 0.5px;">
+                        Digvijay Thorat
+                    </span>
+
+                    <span class="waving-hand">
+                        👋
+                    </span>
+
+                </h1>
+
+
+                <!-- Role -->
+                <div class="role-container slide-in-up"
+                    style="margin-top: 2rem;">
+
+                    <h2 class="role-title"
+                        style="
+                        display: flex;
+                        gap: 1rem;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;">
+
+                        <span class="role-badge">
+                            Cloud & DevOps Engineer
+                        </span>
+
+                        <span class="role-divider">|</span>
+
+                        <span class="role-badge">
+                            AWS Enthusiast
+                        </span>
+
+                    </h2>
+
+                </div>
+
+
+                <!-- Resume Download Button -->
+                <div class="resume-button-container text-center mt-4">
+
+                    <a href="/resume.pdf"
+                       download="Digvijay_Thorat_Resume.pdf"
+                       class="resume-btn">
+
+                        <i class="fas fa-file-download"></i>
+                        Download Resume
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Profile Card -->
+            <div class="profile-card p-4 animate-on-scroll">
+
+                <div class="row align-items-center">
+
+
+                    <!-- Profile Image -->
+                    <div class="col-md-4 text-center mb-4 mb-md-0">
+
+                        <div class="profile-image-container mb-3">
+
+                            <img src="profile.jpg"
+                                 alt="Digvijay Thorat"
+                                 class="profile-image">
+
+                        </div>
+
+
+                        <!-- Social Links -->
+                        <div class="social-links bounce-in">
+
+
+                            <!-- GitHub -->
+                            <a href="https://github.com/digvijay0804"
+                               target="_blank"
+                               class="social-btn pulse"
+                               aria-label="GitHub">
+
+                                <i class="fab fa-github"></i>
+
+                            </a>
+
+
+                            <!-- LinkedIn -->
+                            <a href="https://www.linkedin.com/in/digvijay-thorat-460bab348/"
+                               target="_blank"
+                               class="social-btn pulse"
+                               aria-label="LinkedIn">
+
+                                <i class="fab fa-linkedin-in"></i>
+
+                            </a>
+
+
+                            <!-- WhatsApp -->
+                            <a href="https://wa.me/919112806323"
+                               target="_blank"
+                               class="social-btn pulse"
+                               aria-label="WhatsApp">
+
+                                <i class="fab fa-whatsapp"></i>
+
+                            </a>
+
+
+                            <!-- Email -->
+                            <a href="mailto:digvijaythorat855@gmail.com"
+                               class="social-btn pulse"
+                               aria-label="Email">
+
+                                <i class="fas fa-envelope"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- About Content -->
+                    <div class="col-md-8">
+
+                        <div class="profile-content fade-in">
+
+                            <div class="about-section fade-in-up">
+
+
+                                <p class="about-text">
+
+                                    I am a Cloud & DevOps Engineer focused on
+                                    building, deploying and automating
+                                    cloud-native applications using AWS and
+                                    modern DevOps tools.
+
+                                </p>
+
+
+                                <p class="about-text highlight-text">
+
+                                    I have hands-on experience with Docker,
+                                    Kubernetes, Terraform, Git, GitHub Actions,
+                                    Prometheus, Grafana, Linux and AWS services.
+
+                                </p>
+
+
+                                <p class="about-text">
+
+                                    I enjoy automating deployment workflows,
+                                    building CI/CD pipelines and working with
+                                    containerized applications. I am continuously
+                                    learning new technologies and looking for
+                                    opportunities to grow as a DevOps Engineer.
+
+                                </p>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
-      </div>
 
-      <!-- Enhanced Profile Card -->
-      <div class="profile-card p-4 animate-on-scroll" 
-           style="background: rgba(0, 0, 0, 0.9); 
-                  border-radius: 20px; 
-                  box-shadow: 0 10px 30px rgba(255,69,0,0.2); 
-                  border: 1px solid rgba(255,69,0,0.2); 
-                  transition: all 0.3s ease;
-                  color: white;"
-           onmouseover="this.style.transform='translateY(-5px)'" 
-           onmouseout="this.style.transform='translateY(0)'">
-        <div class="row align-items-center">
-          <!-- Enhanced Profile Image Section -->
-          <div class="col-md-4 text-center mb-4 mb-md-0">
-            <div class="profile-image-container mb-3" style="position: relative; overflow: hidden; border: 3px solid #ff4500; transition: all 0.5s ease;"
-                 onmouseover="this.style.transform='scale(1.02)'" 
-                 onmouseout="this.style.transform='scale(1)'">
-              <img src="profile.jpg" alt="Neha Singh" class="profile-image" style="transition: transform 0.5s ease;"
-                   onmouseover="this.style.transform='scale(1.1)'" 
-                   onmouseout="this.style.transform='scale(1)'">
-            </div>
-            <!-- Enhanced Social Links -->
-            <div class="social-links bounce-in">
-              <a href="https://github.com/neha13singh" target="_blank" class="social-btn pulse" 
-                 style="background: linear-gradient(45deg, #ff4500, #ff8c5a); color: white; transition: all 0.3s ease;"
-                 onmouseover="this.style.background='#333'; this.style.transform='translateY(-5px)'" 
-                 onmouseout="this.style.background='linear-gradient(45deg, #ff4500, #ff8c5a)'; this.style.transform='translateY(0)'">
-                <i class="fab fa-github"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/neha-singh-a55254220" target="_blank" class="social-btn pulse"
-                 style="background: linear-gradient(45deg, #ff4500, #ff8c5a); color: white; transition: all 0.3s ease;"
-                 onmouseover="this.style.background='#333'; this.style.transform='translateY(-5px)'" 
-                 onmouseout="this.style.background='linear-gradient(45deg, #ff4500, #ff8c5a)'; this.style.transform='translateY(0)'">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-              <a href="mailto:nehasingh134202@gmail.com" class="social-btn pulse"
-                 style="background: linear-gradient(45deg, #ff4500, #ff8c5a); color: white; transition: all 0.3s ease;"
-                 onmouseover="this.style.background='#333'; this.style.transform='translateY(-5px)'" 
-                 onmouseout="this.style.background='linear-gradient(45deg, #ff4500, #ff8c5a)'; this.style.transform='translateY(0)'">
-                <i class="fas fa-envelope"></i>
-              </a>
-            </div>
-          </div>
-
-          <!-- Enhanced Content Column -->
-          <div class="col-md-8">
-            <div class="profile-content fade-in">
-              <div class="about-section fade-in-up">
-                <p class="about-text" style="font-size: clamp(1rem, 2vw, 1.1rem); line-height: 1.8; color: #ffffff; transition: all 0.3s ease;"
-                   onmouseover="this.style.transform='translateX(10px)'; this.style.color='#ff4500';" 
-                   onmouseout="this.style.transform='translateX(0)'; this.style.color='#ffffff';">
-                  My expertise lies in transforming creative ideas into reality through code. I enjoy building user-friendly websites 
-                  and applications that not only look good but also perform exceptionally well.
-                </p>
-                <p class="about-text highlight-text" style="font-size: clamp(1rem, 2vw, 1.1rem); line-height: 1.8; color: #ff4500; border-left: 3px solid #ff4500; padding-left: 1rem; background: linear-gradient(45deg, rgba(255,69,0,0.2), transparent); transition: all 0.3s ease;"
-                   onmouseover="this.style.transform='scale(1.02)'" 
-                   onmouseout="this.style.transform='scale(1)'">
-                  Whether it's designing intuitive user interfaces or optimizing backend processes, I thrive on solving complex challenges.
-                </p>
-                <p class="about-text" style="font-size: clamp(1rem, 2vw, 1.1rem); line-height: 1.8; color: #ffffff; transition: all 0.3s ease;"
-                   onmouseover="this.style.transform='translateX(10px)'; this.style.color='#ff4500';" 
-                   onmouseout="this.style.transform='translateX(0)'; this.style.color='#ffffff';">
-                  Beyond coding, I am curious about emerging technologies and continuously exploring new tools and frameworks 
-                  to stay ahead in the tech world.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-  <div class="next-section-nav">
-    <a href="/<%= nextPage %>" class="next-page-btn">
-        <%= nextPageTitle %>
-        <i class="fas fa-arrow-right"></i>
-    </a>
-</div>
+
+
+    <!-- Next Section -->
+    <div class="next-section-nav">
+
+        <a href="/<%= nextPage %>"
+           class="next-page-btn">
+
+            <%= nextPageTitle %>
+
+            <i class="fas fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
 </div>
 
+
+<!-- Resume Button Styling -->
 <style>
-/* Remove duplicate keyframes and consolidate animations */
-@keyframes wave {
-  0% { transform: rotate(0deg); }
-  10% { transform: rotate(14deg); }
-  20% { transform: rotate(-8deg); }
-  30% { transform: rotate(14deg); }
-  40% { transform: rotate(-4deg); }
-  50% { transform: rotate(10deg); }
-  60% { transform: rotate(0deg); }
-  100% { transform: rotate(0deg); }
+
+.resume-button-container {
+    margin-top: 25px;
 }
 
-@keyframes shine {
-  0% { transform: translateX(-100%) rotate(45deg); }
-  100% { transform: translateX(100%) rotate(45deg); }
+.resume-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 25px;
+    background: linear-gradient(45deg, #ff4500, #ff8c5a);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 69, 0, 0.25);
 }
 
-@keyframes backgroundShift {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
+.resume-btn:hover {
+    color: #ffffff;
+    text-decoration: none;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(255, 69, 0, 0.35);
 }
 
-@keyframes patternMove {
-  0% { background-position: 0 0; }
-  100% { background-position: 40px 40px; }
+.resume-btn i {
+    font-size: 18px;
 }
 
-@keyframes floatingDots {
-  0% { transform: translateY(0) rotate(0deg); }
-  100% { transform: translateY(20px) rotate(5deg); }
-}
-
-/* Background styles */
-.animated-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -2;
-  background: 
-    linear-gradient(120deg, #fff5f2, #fff9f7),
-    radial-gradient(circle at top left, rgba(255, 69, 0, 0.15), transparent 50%),
-    radial-gradient(circle at top right, rgba(255, 140, 90, 0.15), transparent 50%),
-    radial-gradient(circle at bottom left, rgba(255, 99, 71, 0.15), transparent 50%),
-    radial-gradient(circle at bottom right, rgba(255, 127, 80, 0.15), transparent 50%);
-  background-blend-mode: screen;
-  animation: backgroundShift 15s ease-in-out infinite;
-}
-
-.animated-background::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: 
-    repeating-linear-gradient(45deg, rgba(255, 69, 0, 0.03) 0px, rgba(255, 69, 0, 0.03) 2px, 
-    transparent 2px, transparent 8px);
-  animation: patternMove 20s linear infinite;
-}
-
-.animated-background::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: 
-    radial-gradient(circle at 30% 30%, rgba(255, 69, 0, 0.1) 0%, transparent 10%),
-    radial-gradient(circle at 70% 70%, rgba(255, 140, 90, 0.1) 0%, transparent 20%);
-  filter: blur(3px);
-  animation: floatingDots 10s ease-in-out infinite alternate;
-}
-
-/* Enhanced card styles */
-.profile-card {
-  backdrop-filter: blur(10px);
-  background: rgba(0, 0, 0, 0.9) !important;
-  border: 1px solid rgba(255, 69, 0, 0.2) !important;
-  box-shadow: 
-    0 10px 30px rgba(255, 69, 0, 0.2),
-    inset 0 0 20px rgba(255, 69, 0, 0.1) !important;
-}
-
-/* Text hover effects */
-.about-text {
-  position: relative;
-  z-index: 1;
-}
-
-.about-text::before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255, 69, 0, 0.2), transparent);
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.3s ease;
-}
-
-.about-text:hover::before {
-  transform: scaleX(1);
-}
-
-/* Role badge styles */
-.role-badge {
-  position: relative;
-  overflow: hidden;
-}
-
-.role-badge::before {
-  content: '';
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-  transform: rotate(45deg);
-  transition: all 0.3s ease;
-}
-
-.role-badge:hover::before {
-  animation: shine 1.5s infinite;
-}
-
-/* Mobile Optimization */
-@media (max-width: 768px) {
-  .container { 
-    padding: 1rem; 
-  }
-  .profile-card { 
-    padding: 1.5rem !important; 
-  }
-  .about-text { 
-    font-size: 1rem !important; 
-  }
-  .animated-background::before {
-    background-size: 15px 15px;
-  }
-  .animated-background::after {
-    opacity: 0.5;
-  }
-}
-
-/* Update profile image container for dark theme */
-.profile-image-container {
-  border-color: #ff4500 !important;
-  box-shadow: 0 0 20px rgba(255, 69, 0, 0.3);
-}
-
-/* Update social buttons for dark theme */
-.social-btn {
-  background: linear-gradient(45deg, #ff4500, #ff8c5a) !important;
-  color: white !important;
-  box-shadow: 0 5px 15px rgba(255, 69, 0, 0.3);
-}
-
-.social-btn:hover {
-  background: #333 !important;
-  transform: translateY(-5px);
-}
-
-/* Update text hover effects for dark theme */
-.about-text::before {
-  background: linear-gradient(45deg, rgba(255, 69, 0, 0.2), transparent);
-}
-
-/* Update hover states for better visibility */
-.about-text:hover {
-  color: #ff4500 !important;
-}
-
-/* Mobile Optimization adjustments */
-@media (max-width: 768px) {
-  .profile-card {
-    background: rgba(0, 0, 0, 0.95) !important;
-  }
-  
-  .about-text {
-    color: #ffffff !important;
-  }
-  
-  .about-text:hover {
-    color: #ff4500 !important;
-  }
-}
 </style>

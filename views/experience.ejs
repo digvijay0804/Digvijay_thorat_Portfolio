@@ -1,102 +1,144 @@
 <% layout('boilerplate') -%>
+
 <div class="container my-5">
+
     <h2 class="section-title text-center mb-5 fade-in">
         <span class="title-black">Professional</span> Experience
     </h2>
 
-    <div class="row">
-        <!-- Coding Ninjas -->
-        <div class="col-md-4 mb-4">
+    <div class="row justify-content-center">
+
+        <!-- CodeAlpha DevOps Internship -->
+        <div class="col-md-8 mb-4">
             <div class="experience-card animate-on-scroll">
+
                 <div class="card shadow-lg">
+
+                    <!-- CodeAlpha Image -->
                     <div class="experience-image-container">
-                        <img src="coding_ninjas.jpeg" class="experience-image" alt="Coding Ninjas Logo">
+
+                        <img src="codealpha.jpg"
+                             alt="CodeAlpha Logo"
+                             class="experience-image">
+
                         <div class="experience-overlay">
                             <div class="overlay-content">
-                                <span class="year-badge">2024</span>
+                                <span class="year-badge">2026</span>
                             </div>
                         </div>
+
                     </div>
+
                     <div class="card-body p-4">
-                        <h3 class="experience-title slide-in-left">Teaching Assistant</h3>
+
+                        <h3 class="experience-title slide-in-left">
+                            DevOps Intern
+                        </h3>
+
                         <div class="company-info mb-3">
-                            <span class="company-badge">Coding Ninjas</span>
-                            <span class="date-badge">February 2024 - May 2024</span>
+
+                            <span class="company-badge">
+                                CodeAlpha
+                            </span>
+
+                            <span class="date-badge">
+                                2026
+                            </span>
+
                         </div>
+
                         <div class="achievement-box">
+
                             <ul class="feature-list">
-                                <li><i class="fas fa-check-circle"></i> Analyzed over 100 problems related to Data Structures and Algorithms with a general score of 4.76/5.00.</li>
-                                <li><i class="fas fa-check-circle"></i> Increased debugging skills by going through 10k+ lines of code in search of errors.</li>
+
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    Worked on practical DevOps tasks involving
+                                    CI/CD pipelines, Docker and automation.
+                                </li>
+
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    Worked with Jenkins and Git-based workflows
+                                    for continuous integration and deployment.
+                                </li>
+
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    Gained hands-on experience with containerized
+                                    applications and DevOps practices.
+                                </li>
+
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    Practiced cloud and deployment concepts using
+                                    modern DevOps tools.
+                                </li>
+
                             </ul>
+
                         </div>
+
                     </div>
+
                 </div>
+
             </div>
         </div>
 
-        <!-- Softpro India -->
-        <div class="col-md-4 mb-4">
-            <div class="experience-card animate-on-scroll">
-                <div class="card shadow-lg">
-                    <div class="experience-image-container">
-                        <img src="spi.webp" class="experience-image" alt="Softpro India Logo">
-                        <div class="experience-overlay">
-                            <div class="overlay-content">
-                                <span class="year-badge">2022</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body p-4">
-                        <h3 class="experience-title slide-in-left">Trainee</h3>
-                        <div class="company-info mb-3">
-                            <span class="company-badge">Softpro India</span>
-                            <span class="date-badge">September 2022 - December 2022</span>
-                            <span class="location-badge">Lucknow</span>
-                        </div>
-                        <div class="achievement-box">
-                            <ul class="feature-list">
-                                <li><i class="fas fa-check-circle"></i> Conceptualized and executed complex embedded systems projects using Atmel Studio and Proteus Software.</li>
-                                <li><i class="fas fa-check-circle"></i> Designed and implemented embedded system solutions, successfully integrating hardware and software components.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- RN Technology -->
-        <div class="col-md-4 mb-4">
-            <div class="experience-card animate-on-scroll">
-                <div class="card shadow-lg">
-                    <div class="experience-image-container">
-                        <img src="rn.png" class="experience-image" alt="RN Technology Logo">
-                        <div class="experience-overlay">
-                            <div class="overlay-content">
-                                <span class="year-badge">2021-23</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body p-4">
-                        <h3 class="experience-title slide-in-left">Content Writer</h3>
-                        <div class="company-info mb-3">
-                            <span class="company-badge">R.N Technology</span>
-                            <span class="date-badge">May 2021 - August 2023</span>
-                            <span class="location-badge">Remote</span>
-                        </div>
-                        <div class="achievement-box">
-                            <ul class="feature-list">
-                                <li><i class="fas fa-check-circle"></i> Created engaging content about new technological advancements, which positively impacted website traffic and engagement metrics.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
+
     <div class="next-section-nav">
+
         <a href="/<%= nextPage %>" class="next-page-btn">
+
             <%= nextPageTitle %>
+
             <i class="fas fa-arrow-right"></i>
+
         </a>
+
     </div>
+
 </div>
+
+
+<style>
+
+.experience-image-container {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 20px;
+}
+
+.experience-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px;
+}
+
+.overlay-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.year-badge {
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+</style>

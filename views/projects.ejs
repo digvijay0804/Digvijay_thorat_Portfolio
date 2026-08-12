@@ -1,261 +1,640 @@
 <% layout('boilerplate') -%>
 
 <div class="container my-5">
+
     <h2 class="section-title text-center mb-5 fade-in">
-        <span class="title-black">Innovative</span> Projects
+        <span class="title-black">DevOps</span> Projects
     </h2>
+
     <div class="portfolio">
-          <!-- VisionCraft AI Project -->
-          <div class="project-card animate-on-scroll mb-5">
-            <div class="card shadow-lg project-wrapper">
-                <div class="project-header">
-                    <div class="project-image">
-                        <img src="visioncraft.png" alt="VisionCraft AI Project" class="img-fluid">
-                        <div class="project-links">
-                            <a href="https://visioncraft-ai-image-generator-client.onrender.com/" target="_blank" class="project-btn">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-content">
-                    <h3 class="project-title">VisionCraft - AI Image Generation Platform</h3>
-                    <div class="tech-stack">
-                        <span class="tech-badge">React.js</span>
-                        <span class="tech-badge">Node.js</span>
-                        <span class="tech-badge">MongoDB</span>
-                        <span class="tech-badge">OpenAI API</span>
-                        <span class="tech-badge">Express.js</span>
-                        <span class="tech-badge">Material-UI</span>
-                        <span class="tech-badge">Cloudinary</span>
 
-                    </div>
-                    <div class="project-info">
-                        <p class="project-description">A powerful AI-powered image generation platform that transforms textual descriptions into stunning visual artwork using OpenAI's DALL-E API, complete with community gallery and theme customization.</p>
-                        <div class="features-section">
-                            <h5>Key Features</h5>
-                            <ul class="feature-list">
-                                <li><i class="fas fa-check"></i> AI-powered image generation with DALL-E</li>
-                                <li><i class="fas fa-check"></i> Community gallery showcase</li>
-                                <li><i class="fas fa-check"></i> Dark/Light theme support</li>
-                                <li><i class="fas fa-check"></i> Intuitive prompt interface</li>
-                                <li><i class="fas fa-check"></i> Responsive Material-UI design</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Bookshow Project -->
+        <!-- 1. STUDENT FEEDBACK SYSTEM -->
         <div class="project-card animate-on-scroll mb-5">
             <div class="card shadow-lg project-wrapper">
-                <div class="project-header">
-                    <div class="project-image">
-                        <img src="bookshow.png" alt="Bookshow Project" class="img-fluid">
-                        <div class="project-links">
-                            <a href="https://book-show-frontend.onrender.com/" target="_blank" class="project-btn">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
-                        </div>
+
+                <div class="project-image">
+                    <img src="/student-feedback.png"
+                         alt="Student Feedback System"
+                         class="project-img">
+
+                    <div class="project-overlay">
+                        <a href="https://github.com/digvijay0804/student-feedback"
+                           target="_blank"
+                           class="project-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
                     </div>
                 </div>
+
                 <div class="project-content">
-                    <h3 class="project-title">Bookshow - Book Management System</h3>
+                    <h3 class="project-title">Student Feedback System</h3>
+
                     <div class="tech-stack">
-                        <span class="tech-badge">MongoDB</span>
-                        <span class="tech-badge">Express.js</span>
-                        <span class="tech-badge">React</span>
-                        <span class="tech-badge">Node.js</span>
-                        <span class="tech-badge">Tailwind CSS</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">Docker</span>
+                        <span class="tech-badge">Kubernetes</span>
+                        <span class="tech-badge">GitHub Actions</span>
                     </div>
-                    <div class="project-info">
-                        <p class="project-description">A MERN stack application for managing a bookstore's inventory with comprehensive CRUD operations, dual view options, and advanced search capabilities.</p>
-                        <div class="features-section">
-                            <h5>Key Features</h5>
-                            <ul class="feature-list">
-                                <li><i class="fas fa-check"></i> Complete CRUD operations for book management</li>
-                                <li><i class="fas fa-check"></i> Dual view options: Table & Card layouts</li>
-                                <li><i class="fas fa-check"></i> Real-time search with multiple filter options</li>
-                                <li><i class="fas fa-check"></i> Responsive design with Tailwind CSS</li>
-                                <li><i class="fas fa-check"></i> RESTful API implementation</li>
-                            </ul>
-                        </div>
+
+                    <p class="project-description">
+                        A student feedback application with containerization
+                        and modern deployment practices.
+                    </p>
+
+                    <div class="features-section">
+                        <h5>Key Features</h5>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Student feedback management</li>
+                            <li><i class="fas fa-check"></i> Docker containerization</li>
+                            <li><i class="fas fa-check"></i> Kubernetes deployment</li>
+                            <li><i class="fas fa-check"></i> GitHub Actions</li>
+                        </ul>
                     </div>
                 </div>
+
             </div>
         </div>
 
-        <!-- AI Day Planner Project -->
+
+        <!-- 2. DIGVIJAY PORTFOLIO -->
         <div class="project-card animate-on-scroll mb-5">
             <div class="card shadow-lg project-wrapper">
-                <div class="project-header">
-                    <div class="project-image">
-                        <img src="ai-planner.png" alt="AI Day Planner Project" class="img-fluid">
-                        <div class="project-links">
-                            <a href="https://ai-day-planner.onrender.com/" target="_blank" class="project-btn">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-content">
-                    <h3 class="project-title">Weather App with AI Day Planner</h3>
-                    <div class="tech-stack">
-                        <span class="tech-badge">React 18</span>
-                        <span class="tech-badge">Vite</span>
-                        <span class="tech-badge">Material-UI</span>
-                        <span class="tech-badge">OpenAI API</span>
-                        <span class="tech-badge">OpenWeather API</span>
 
-                    </div>
-                    <div class="project-info">
-                        <p class="project-description">A modern web application that combines real-time weather forecasting with AI-powered day planning capabilities, featuring GPT-3.5 integration for intelligent schedule generation.</p>
-                        <div class="features-section">
-                            <h5>Key Features</h5>
-                            <ul class="feature-list">
-                                <li><i class="fas fa-check"></i> Real-time weather information with global city search</li>
-                                <li><i class="fas fa-check"></i> GPT-3.5 powered schedule generation</li>
-                                <li><i class="fas fa-check"></i> Interactive schedule display and management</li>
-                                <li><i class="fas fa-check"></i> Responsive design across all devices</li>
-                        
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-         <!-- Portfolio Website Project -->
-         <div class="project-card animate-on-scroll mb-5">
-            <div class="card shadow-lg project-wrapper">
-                <div class="project-header">
-                    <div class="project-image">
-                        <img 
-                            src="project1.png" 
-                            alt="Portfolio Project" 
-                            class="img-fluid" 
-                            loading="lazy"
-                            onerror="this.onerror=null; this.style.padding='2rem';"
-                        >
-                        <div class="project-links">
-                            <a href="https://my-portfolio-nry9.onrender.com/" target="_blank" class="project-btn">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-content">
-                    <h3 class="project-title">Portfolio Website</h3>
-                    <div class="tech-stack">
-                        <span class="tech-badge">Express.js</span>
-                        <span class="tech-badge">Node.js</span>
-                        <span class="tech-badge">EJS</span>
-                        <span class="tech-badge">Bootstrap</span>
-                    </div>
-                    <div class="project-info">
-                        <p class="project-description">A comprehensive portfolio website showcasing my skills, experience, and achievements across multiple pages, built with modern web technologies.</p>
-                        <div class="features-section">
-                            <h5>Key Features</h5>
-                            <ul class="feature-list">
-                                <li><i class="fas fa-check"></i> Express Framework: Robust server-side application</li>
-                                <li><i class="fas fa-check"></i> RESTful APIs: Dynamic data management</li>
-                                <li><i class="fas fa-check"></i> EJS Templating: Dynamic content rendering</li>
-                                <li><i class="fas fa-check"></i> Bootstrap Integration: Responsive design</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                <div class="project-image">
+                    <img src="/portfolio.png"
+                         alt="Digvijay Portfolio"
+                         class="project-img">
 
-        <!-- Weather App Project -->
-        <div class="project-card animate-on-scroll mb-5">
-            <div class="card shadow-lg project-wrapper">
-                <div class="project-header">
-                    <div class="project-image">
-                        <img 
-                            src="weather-app.png" 
-                            alt="Weather App Project" 
-                            class="img-fluid" 
-                            loading="lazy"
-                        >
-                        <div class="project-links">
-                            <a href="https://neha13singh.github.io/weather-app/" target="_blank" class="project-btn">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
-                        </div>
+                    <div class="project-overlay">
+                        <a href="https://github.com/digvijay0804/Digvijay-portfolio"
+                           target="_blank"
+                           class="project-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
                     </div>
                 </div>
+
                 <div class="project-content">
-                    <h3 class="project-title">React Weather App</h3>
+                    <h3 class="project-title">Digvijay Portfolio</h3>
+
                     <div class="tech-stack">
-                        <span class="tech-badge">React</span>
-                        <span class="tech-badge">OpenWeatherMap API</span>
+                        <span class="tech-badge">HTML</span>
                         <span class="tech-badge">CSS</span>
                         <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">EJS</span>
                     </div>
-                    <div class="project-info">
-                        <p class="project-description">A responsive weather application that provides real-time weather information for any city, built with React and integrated with the OpenWeatherMap API.</p>
-                        <div class="features-section">
-                            <h5>Key Features</h5>
-                            <ul class="feature-list">
-                                <li><i class="fas fa-check"></i> Real-time weather data retrieval</li>
-                                <li><i class="fas fa-check"></i> City-based weather search</li>
-                                <li><i class="fas fa-check"></i> Display of temperature, humidity, and wind speed</li>
-                                <li><i class="fas fa-check"></i> Responsive design for all devices</li>
-                            </ul>
-                        </div>
+
+                    <p class="project-description">
+                        A personal portfolio website showcasing projects,
+                        technical skills and professional information.
+                    </p>
+
+                    <div class="features-section">
+                        <h5>Key Features</h5>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Personal portfolio</li>
+                            <li><i class="fas fa-check"></i> Projects showcase</li>
+                            <li><i class="fas fa-check"></i> Technical skills</li>
+                            <li><i class="fas fa-check"></i> Responsive design</li>
+                        </ul>
                     </div>
                 </div>
+
             </div>
         </div>
 
-        <!-- Simon Memory Game Project -->
+
+        <!-- 3. TIC TAC TOE -->
         <div class="project-card animate-on-scroll mb-5">
             <div class="card shadow-lg project-wrapper">
-                <div class="project-header">
-                    <div class="project-image">
-                        <img 
-                            src="simon-game.png" 
-                            alt="Simon Memory Game Project" 
-                            class="img-fluid" 
-                            loading="lazy"
-                        >
-                        <div class="project-links">
-                            <a href="https://neha13singh.github.io/Simon_memory_game/" target="_blank" class="project-btn">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
-                        </div>
+
+                <div class="project-image">
+                    <img src="/tictactoe.png"
+                         alt="Tic Tac Toe Game"
+                         class="project-img">
+
+                    <div class="project-overlay">
+                        <a href="https://github.com/digvijay0804/tic-tac-toe-game"
+                           target="_blank"
+                           class="project-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
                     </div>
                 </div>
+
                 <div class="project-content">
-                    <h3 class="project-title">Simon Memory Game</h3>
+                    <h3 class="project-title">Tic-Tac-Toe Game</h3>
+
                     <div class="tech-stack">
-                        <span class="tech-badge">HTML5</span>
-                        <span class="tech-badge">CSS3</span>
                         <span class="tech-badge">JavaScript</span>
-                        <span class="tech-badge">Web Audio API</span>
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
                     </div>
-                    <div class="project-info">
-                        <p class="project-description">An interactive memory game where players must replicate increasingly complex sequences of colored buttons, featuring audio feedback and progressive difficulty levels.</p>
-                        <div class="features-section">
-                            <h5>Key Features</h5>
-                            <ul class="feature-list">
-                                <li><i class="fas fa-check"></i> Interactive colored buttons with audio feedback</li>
-                                <li><i class="fas fa-check"></i> Progressive difficulty system</li>
-                                <li><i class="fas fa-check"></i> Score tracking and game over states</li>
-                                <li><i class="fas fa-check"></i> Responsive design for desktop and mobile play</li>
-                            </ul>
-                        </div>
+
+                    <p class="project-description">
+                        An interactive browser-based Tic-Tac-Toe game
+                        built using JavaScript.
+                    </p>
+
+                    <div class="features-section">
+                        <h5>Key Features</h5>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Interactive gameplay</li>
+                            <li><i class="fas fa-check"></i> JavaScript game logic</li>
+                            <li><i class="fas fa-check"></i> Win detection</li>
+                            <li><i class="fas fa-check"></i> Responsive interface</li>
+                        </ul>
                     </div>
                 </div>
+
             </div>
         </div>
+
+
+        <!-- 4. THREE TIER APPLICATION -->
+        <div class="project-card animate-on-scroll mb-5">
+            <div class="card shadow-lg project-wrapper">
+
+                <div class="project-image">
+                    <img src="/three-tier.png"
+                         alt="Three Tier Application"
+                         class="project-img">
+
+                    <div class="project-overlay">
+                        <a href="https://github.com/digvijay0804/3_tier_application"
+                           target="_blank"
+                           class="project-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+                    <h3 class="project-title">3-Tier Application</h3>
+
+                    <div class="tech-stack">
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">Spring Boot</span>
+                        <span class="tech-badge">MongoDB</span>
+                        <span class="tech-badge">Docker</span>
+                        <span class="tech-badge">Docker Compose</span>
+                    </div>
+
+                    <p class="project-description">
+                        A multi-tier application separating frontend,
+                        backend and database services using Docker Compose.
+                    </p>
+
+                    <div class="features-section">
+                        <h5>Key Features</h5>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Frontend and backend separation</li>
+                            <li><i class="fas fa-check"></i> MongoDB database</li>
+                            <li><i class="fas fa-check"></i> Docker containerization</li>
+                            <li><i class="fas fa-check"></i> Docker Compose</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- 5. MODERN TODO -->
+        <div class="project-card animate-on-scroll mb-5">
+            <div class="card shadow-lg project-wrapper">
+
+                <div class="project-image">
+                    <img src="/modern-todo.png"
+                         alt="Modern Todo Application"
+                         class="project-img">
+
+                    <div class="project-overlay">
+                        <a href="https://github.com/digvijay0804/CI-CD-Projects"
+                           target="_blank"
+                           class="project-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+                    <h3 class="project-title">Modern Todo Application</h3>
+
+                    <div class="tech-stack">
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">Docker</span>
+                        <span class="tech-badge">MySQL</span>
+                        <span class="tech-badge">CI/CD</span>
+                    </div>
+
+                    <p class="project-description">
+                        A modern Todo application demonstrating containerization,
+                        database integration and CI/CD deployment practices.
+                    </p>
+
+                    <div class="features-section">
+                        <h5>Key Features</h5>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Todo management</li>
+                            <li><i class="fas fa-check"></i> MySQL database</li>
+                            <li><i class="fas fa-check"></i> Docker containerization</li>
+                            <li><i class="fas fa-check"></i> CI/CD automation</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- 6. DOCKER LEARNING -->
+        <div class="project-card animate-on-scroll mb-5">
+            <div class="card shadow-lg project-wrapper">
+
+                <div class="project-image">
+                    <img src="/docker-learning.png"
+                         alt="Docker Learning Project"
+                         class="project-img">
+
+                    <div class="project-overlay">
+                        <a href="https://github.com/digvijay0804/docker-learning-project"
+                           target="_blank"
+                           class="project-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+                    <h3 class="project-title">Docker Learning Project</h3>
+
+                    <div class="tech-stack">
+                        <span class="tech-badge">Docker</span>
+                        <span class="tech-badge">Docker Hub</span>
+                        <span class="tech-badge">GitHub Actions</span>
+                        <span class="tech-badge">CI/CD</span>
+                    </div>
+
+                    <p class="project-description">
+                        A hands-on Docker project demonstrating automated
+                        image building and Docker Hub integration.
+                    </p>
+
+                    <div class="features-section">
+                        <h5>Key Features</h5>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Docker image creation</li>
+                            <li><i class="fas fa-check"></i> Docker Hub integration</li>
+                            <li><i class="fas fa-check"></i> GitHub Actions workflow</li>
+                            <li><i class="fas fa-check"></i> Automated image build</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- 7. KUBERNETES -->
+        <div class="project-card animate-on-scroll mb-5">
+            <div class="card shadow-lg project-wrapper">
+
+                <div class="project-image">
+                    <img src="/kubernetes.png"
+                         alt="Kubernetes Project"
+                         class="project-img">
+
+                    <div class="project-overlay">
+                        <a href="https://github.com/digvijay0804/K8S"
+                           target="_blank"
+                           class="project-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+                    <h3 class="project-title">Kubernetes Deployment Project</h3>
+
+                    <div class="tech-stack">
+                        <span class="tech-badge">Kubernetes</span>
+                        <span class="tech-badge">Docker</span>
+                        <span class="tech-badge">YAML</span>
+                        <span class="tech-badge">Linux</span>
+                    </div>
+
+                    <p class="project-description">
+                        A Kubernetes-focused project demonstrating container
+                        orchestration and application management.
+                    </p>
+
+                    <div class="features-section">
+                        <h5>Key Features</h5>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Kubernetes resources</li>
+                            <li><i class="fas fa-check"></i> Container orchestration</li>
+                            <li><i class="fas fa-check"></i> Deployment configuration</li>
+                            <li><i class="fas fa-check"></i> YAML manifests</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- 8. NOTES APP -->
+        <div class="project-card animate-on-scroll mb-5">
+            <div class="card shadow-lg project-wrapper">
+
+                <div class="project-image">
+                    <img src="/notes-app.png"
+                         alt="Notes App"
+                         class="project-img">
+
+                    <div class="project-overlay">
+                        <a href="https://github.com/digvijay0804/Notes_App"
+                           target="_blank"
+                           class="project-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+                    <h3 class="project-title">Notes App</h3>
+
+                    <div class="tech-stack">
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">Docker</span>
+                        <span class="tech-badge">Kubernetes</span>
+                    </div>
+
+                    <p class="project-description">
+                        A notes application using containerization and
+                        Kubernetes deployment concepts.
+                    </p>
+
+                    <div class="features-section">
+                        <h5>Key Features</h5>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Notes management</li>
+                            <li><i class="fas fa-check"></i> Docker containerization</li>
+                            <li><i class="fas fa-check"></i> Kubernetes deployment</li>
+                            <li><i class="fas fa-check"></i> Scalable architecture</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- 9. TWO TIER APPLICATION -->
+        <div class="project-card animate-on-scroll mb-5">
+            <div class="card shadow-lg project-wrapper">
+
+                <div class="project-image">
+                    <img src="/two-tier.png"
+                         alt="Two Tier Application"
+                         class="project-img">
+
+                    <div class="project-overlay">
+                        <a href="https://github.com/digvijay0804/two-tier-application"
+                           target="_blank"
+                           class="project-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+                    <h3 class="project-title">Two-Tier Application</h3>
+
+                    <div class="tech-stack">
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">Docker</span>
+                        <span class="tech-badge">Linux</span>
+                    </div>
+
+                    <p class="project-description">
+                        A two-tier application demonstrating separation
+                        between application and supporting services.
+                    </p>
+
+                    <div class="features-section">
+                        <h5>Key Features</h5>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Two-tier architecture</li>
+                            <li><i class="fas fa-check"></i> Docker deployment</li>
+                            <li><i class="fas fa-check"></i> Linux environment</li>
+                            <li><i class="fas fa-check"></i> Application setup</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- 10. CI/CD PROJECTS -->
+        <div class="project-card animate-on-scroll mb-5">
+            <div class="card shadow-lg project-wrapper">
+
+                <div class="project-image">
+                    <img src="/cicd.png"
+                         alt="CI CD Projects"
+                         class="project-img">
+
+                    <div class="project-overlay">
+                        <a href="https://github.com/digvijay0804/CI-CD-Projects"
+                           target="_blank"
+                           class="project-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+                    <h3 class="project-title">CI/CD Projects</h3>
+
+                    <div class="tech-stack">
+                        <span class="tech-badge">GitHub</span>
+                        <span class="tech-badge">GitHub Actions</span>
+                        <span class="tech-badge">Docker</span>
+                        <span class="tech-badge">CI/CD</span>
+                    </div>
+
+                    <p class="project-description">
+                        A collection of CI/CD-focused projects demonstrating
+                        automation and continuous integration workflows.
+                    </p>
+
+                    <div class="features-section">
+                        <h5>Key Features</h5>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> CI/CD workflows</li>
+                            <li><i class="fas fa-check"></i> GitHub integration</li>
+                            <li><i class="fas fa-check"></i> Automation</li>
+                            <li><i class="fas fa-check"></i> Continuous integration</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
     </div>
+
+
     <div class="next-section-nav">
         <a href="/<%= nextPage %>" class="next-page-btn">
             <%= nextPageTitle %>
             <i class="fas fa-arrow-right"></i>
         </a>
     </div>
+
 </div>
+
+
+<style>
+
+.project-card {
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+}
+
+.project-wrapper {
+    overflow: hidden;
+    border: none;
+    border-radius: 18px;
+}
+
+.project-image {
+    position: relative;
+    height: 280px;
+    overflow: hidden;
+    background: #111827;
+}
+
+.project-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.project-card:hover .project-img {
+    transform: scale(1.05);
+}
+
+.project-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.55);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-card:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 22px;
+    background: #ff4500;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.project-btn:hover {
+    background: #e63e00;
+    color: white;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+.project-content {
+    padding: 28px;
+}
+
+.project-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 15px 0;
+}
+
+.tech-badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    background: #fff1eb;
+    color: #ff4500;
+    border: 1px solid #ff4500;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.project-description {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.features-section h5 {
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.feature-list {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.feature-list li {
+    margin-bottom: 10px;
+}
+
+.feature-list i {
+    color: #ff4500;
+    margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+
+    .project-image {
+        height: 210px;
+    }
+
+    .project-content {
+        padding: 20px;
+    }
+
+    .project-title {
+        font-size: 1.35rem;
+    }
+
+}
+
+</style>
