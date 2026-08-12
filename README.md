@@ -52,3 +52,4 @@ This portfolio website serves as an interactive platform showcasing my:
 2. Portfolio Website
 3. Study Schedule Generator
 4. More projects available on the live site
+# Digvijay_thorat_Portfolio
